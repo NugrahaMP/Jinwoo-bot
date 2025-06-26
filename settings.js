@@ -22,29 +22,29 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
+global.botname = process.env.BOT_NAME || 'NuBot' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '6281999117477' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '263780934873'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['6283877128554', '6281999117477'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
+global.ownername = process.env.OWNER_NAME || 'Nugaa' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "jinwoo" 
+global.packname = process.env.STICKER_PACK_NAME || "Thanks❤️" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "sung" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Made by NuBot" 
 
 //-------------------[ BOT'S PREFIX ]--------------------//
 
@@ -69,7 +69,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 
 //--------------[ AUTO REACT STATUS ]--------------//
 
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //---------------[ ALWAYS ONLINE ]------------------//
@@ -80,7 +80,7 @@ global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
 
 //--------------------[ CHATBOT ]-----------------------//
 
-global.chatbot = process.env.CHATBOT || 'false'
+global.chatbot = process.env.CHATBOT || 'true'
 // set true to enable and false to disable auto ai chatbot
 
 //-------------------[ ANTI DELETE ]--------------------//
@@ -101,7 +101,7 @@ global.antiedit = process.env.ANTI_EDIT || 'private'
 
 //---------------------[ ANTI CALL ]----------------------//
 
-global.anticall = process.env.ANTI_CALL || 'off'
+global.anticall = process.env.ANTI_CALL || 'decline'
 // options :- 'off', 'decline' or 'block'
 // off - Disables anticall
 // decline - Declines incoming calls
@@ -109,17 +109,17 @@ global.anticall = process.env.ANTI_CALL || 'off'
 
 //---------------[ WELCOME MESSAGE ]----------------//
 
-global.welcome = process.env.WELCOME_MSG || 'false'
+global.welcome = process.env.WELCOME_MSG || 'true'
 // set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Asia/Makassar" 
 //Don't edit this if you don't know!
 
 //--------------------[ AUTO READ ]--------------------//
 
-global.autoread = process.env.AUTO_READ || 'false';
+global.autoread = process.env.AUTO_READ || 'true';
 // Set to 'true' to enable automatic reading of messages
 
 //-------------------[ MENU STYLE ]--------------------//
@@ -144,13 +144,13 @@ global.plink = process.env.PLINK || "https://www.instagram.com/@techlord01"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©Jinwoo bot"
+global.wm = process.env.GL_WM || "NuBot"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © ᴊɪɴᴡᴏᴏ ᴠ2.5', 
+  success: 'NuBot', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
